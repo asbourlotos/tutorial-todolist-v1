@@ -38,12 +38,6 @@ app.get("/", function(req, res) {
             break;
     }
 
-    // if (currentDay === 6 || currentDay === 0) {
-    //     day = "Weekend";
-    // } else {
-    //     day = "Weekday";
-    // }
-
     res.render("list", {kindOfDay: day});
 
 });
